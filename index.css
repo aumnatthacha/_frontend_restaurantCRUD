@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@700&family=Kanit:wght@700&display=swap');
+
+body{
+  background-image: url("https://www.kfc.co.th/Content/OnlineOrderingImages/Shared/bg.jpg");
+}
+
+h1 {
+  /* text-align: center; */
+  font-family: 'Kanit', sans-serif;
+}
+
+.card-font {
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+  font-family: 'Kanit', sans-serif;
+}
+
+/* .card-text {
+  /* font-family: 'IBM Plex Sans Thai', sans-serif;
+  font-family: 'Kanit', sans-serif; */
+  /* font-family: 'Anuphan', sans-serif; //แก้เป็นตัวบาง
+  font-family: 'Kanit', sans-serif; */
+/* }  */
+
+/* ตกแต่งกล่องค้นหาเมนู */
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.form-control.search {
+  width: 300px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  font-family: 'Kanit', sans-serif;
+}
+
+/* ตกแต่งรูปแบบของเมนูที่ไม่ตรงกับการค้นหา */
+.card {
+  display: none;
+}
+
+.card.show {
+  display: block;
+  /* คุณอาจต้องปรับสไตล์นี้ตามที่คุณต้องการให้มันแสดงอยู่ */
+}
