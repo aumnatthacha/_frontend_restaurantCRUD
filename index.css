@@ -10,7 +10,7 @@ h1 {
 }
 
 .card-font {
-  font-family: 'IBM Plex Sans Thai', sans-serif;
+  /* font-family: 'IBM Plex Sans Thai', sans-serif; */
   font-family: 'Kanit', sans-serif;
 }
 
@@ -45,4 +45,9 @@ h1 {
 .card.show {
   display: block;
   /* คุณอาจต้องปรับสไตล์นี้ตามที่คุณต้องการให้มันแสดงอยู่ */
+}
+.card-text{
+  font-size: 16px;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+  color: rgb(100, 97, 97);
 }
