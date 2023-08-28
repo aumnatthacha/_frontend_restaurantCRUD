@@ -1,23 +1,3 @@
-// const editRestaurant = async () => {
-//     const id = document.getElementById("restaurantId").value;
-
-//     if (id) {
-//         try {
-//             const response = await fetch(`http://localhost:5000/res/${id}`);
-//             const restaurantData = await response.json();
-
-//             document.getElementById("name").value = restaurantData.name;
-//             document.getElementById("type").value = restaurantData.type;
-//             document.getElementById("img").value = restaurantData.img;
-
-//         } catch (error) {
-//             alert("อัปเดตสำเร็จ");
-//         }
-//     } else {
-//         alert("Restaurant ID is required");
-//     }
-// };
-
 const updateRestaurant = async () => {
     const id = document.getElementById("restaurantId").value;
     const name = document.getElementById("name").value;
@@ -58,6 +38,3 @@ const updateRestaurant = async () => {
 };
 
 
-// Attach the editRestaurant function to a "Edit Restaurant" button
-// const editButton = document.getElementById("editButton");
-// editButton.addEventListener("click", editRestaurant);

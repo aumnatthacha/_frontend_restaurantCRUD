@@ -9,7 +9,7 @@ const genRestaurantCard = (res) => {
             <h5 class="card-font card-name">${res.name}</h5>
             <p class="card-text">${res.type}</p>
             <a href="add.html" class="btn btn-success card-font">เพิ่ม</a>
-            <a href="Delete.html" class="btn btn-danger card-font onClick={() => deleteRestaurant(data.id)}">ลบ</a>
+            <a href="Delete.html" class="btn btn-danger card-font">ลบ</a>
             <a href="update.html" class="btn btn-warning card-font">แก้ไข</a>
             
 
