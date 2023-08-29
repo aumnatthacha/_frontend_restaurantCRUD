@@ -36,5 +36,3 @@ const updateRestaurant = async () => {
         alert("All fields are required");
     }
 };
-
-
