@@ -14,3 +14,5 @@
 [![2023-08-28-231140.png](https://i.postimg.cc/kgvTb7j7/2023-08-28-231140.png)](https://postimg.cc/SnjL0bFP)
 ### ex
 [![2023-08-28-231319.png](https://i.postimg.cc/63JTxNXG/2023-08-28-231319.png)](https://postimg.cc/SXdmc3jy)
+
+### ลบเลย
